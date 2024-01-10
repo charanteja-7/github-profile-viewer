@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github profile</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="imagecontainer"></div>
+        <div class="inputcontainer">
+            <input class="input" type="text" placeholder="Enter your Username">
+            <button class="view-btn" onclick="fetchDetailes()">View</button>
+        </div>
+        <div class="displaycontainer">
+            <div class="profilepic">
+                <img src="images/github.png" alt="profile" class="profile">
+            </div>
+            <div class="content">
+                <h3 class="username"></h3>
+                <h5 class="bio"></h5>
+                <p>Name: <span class="name"></span></p>
+                <p>Company: <span class="company"></span></p>
+                <p>Location: <span class="Location"></span></p>
+                <p>Public Repos: <span class="repos"></span></p>
+                <p>Followers: <span class="Followers"></span></p>
+                <p>Following: <span class="Following"></span></p>
+                <p>Created on: <span class="createdon"></span></p>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
