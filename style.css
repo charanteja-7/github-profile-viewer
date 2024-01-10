@@ -22,7 +22,7 @@ body{
 .imagecontainer{
     width: 50%;
     height: 15vh;
-    background: url('images/githubprofile.png');
+    background: url('githubprofile.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
