@@ -1,2 +1,3 @@
 # github-profile-viewer
-Enter your username to view your github profile
+Enter your username to view your github stats
+
